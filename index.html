@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/javascript/game.js"></script>
+        <title>Hangman!</title>
+    </head>
+    
+    <body>
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-sm-12">
+                    <h1>Let's Play a Game!</h1>
+                    <h4>You have 10 chances to guess the word!</h4>
+                    <h4>Theme : Hypebeast Brands!</h4>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12">
+                    <img class="allBrands" src="assets/images/HB Brands.jpg" height="150" width="250">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-12">
+                    <img id="hangman" src="assets/images/hangman10.png" alt="blank" height="350" width="425">
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 slash">
+                    <h2>Press any key to Get Started!</h2>
+                    <h4>Wins</h4>
+                    <h5 id="totalWins"></h5>
+                    <h4>Current Word</h4>
+                    <h3 id="currentWord"></h3>
+                    <h4>Guesses Remaining</h4>
+                    <h6 id="remainingGuesses"></h6>
+                    <h4>Letters Guessed</h4>
+                    <h3 id="guessedLetters"></h3>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    </html>

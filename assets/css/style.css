@@ -1,0 +1,35 @@
+body {
+}
+
+h1{
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+h2, h3, h4,
+h5, h6 {
+    text-align: center; 
+    padding: 5px;
+}
+
+
+
+.container{
+    border: 3px solid black;
+    background: beige;
+    width: 110%;
+
+}
+
+.allBrands{
+    margin-top: 5%;
+}
+
+.hangman {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+#under{
+    font-size: 40px;
+}
